@@ -1,0 +1,49 @@
+/* client/src/styles/Campaigns.css */
+.campaigns-container {
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.campaigns-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.campaigns-container li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.campaigns-container li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campaigns-container button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #4285F4, #357ae8);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.campaigns-container button:hover {
+  background: linear-gradient(135deg, #357ae8, #2c64c2);
+  transform: translateY(-2px);
+}
+
+.campaigns-container button:nth-child(2) {
+  background: linear-gradient(135deg, #db4437, #c53832);
+}
+
+.campaigns-container button:nth-child(2):hover {
+  background: linear-gradient(135deg, #c53832, #b0302a);
+}

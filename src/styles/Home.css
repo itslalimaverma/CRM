@@ -1,0 +1,47 @@
+/* client/src/styles/Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 1rem 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4285F4;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #357ae8;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #db4437, #c53832);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.logout-button:hover {
+  background: linear-gradient(135deg, #c53832, #b0302a);
+  transform: translateY(-2px);
+}

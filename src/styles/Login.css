@@ -1,0 +1,45 @@
+/* client/src/styles/Login.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  background: linear-gradient(135deg, #4285F4, #357ae8);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #357ae8, #2c64c2);
+  transform: translateY(-2px);
+}
+
+.login-error {
+  margin-top: 20px;
+  color: #ff0000;
+}
